@@ -151,6 +151,13 @@ flex-direction: column;
 
 	}
 
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		body {
+		  background: #999;
+		  width: 100%;
+		}
+	  }
+
 	html {
 		box-sizing: border-box;
 	}
@@ -2423,15 +2430,21 @@ flex-direction: column;
 
 /* Image */
 
+	img {
+		border-radius: 50%;
+  	}
+
 	.image {
-		border-radius: 8px;
+		/*border-radius: 8px;*/
+		border-radius: 50%;
 		border: 0;
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image img {
-			border-radius: 8px;
+			/*border-radius: 8px;*/
 			display: block;
 		}
 
