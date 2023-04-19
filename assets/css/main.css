@@ -3687,7 +3687,7 @@ body.is-menu-visible #menu {
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				/*display: none;*/
 			}
 
 				#nav + #main {
