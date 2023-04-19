@@ -18,4 +18,9 @@
 		@include breakpoint('<=xxsmall') {
 			max-width: 100%;
 		}
+		@include vendor('transition', (
+			'filter #{_duration(menu)} ease',
+			'-webkit-filter #{_duration(menu)} ease',
+			'opacity 0.375s ease-out'
+		));
 	}
